@@ -1,0 +1,5 @@
+# /.vscode
+/build
+/node_modules
+/third_party
+*.swp
