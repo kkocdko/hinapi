@@ -23,7 +23,7 @@ On Linux, without any build tools, put [node-addon-api](https://github.com/nodej
 
 ```sh
 mkdir -p build
-g++ src/main.cc -o build/main.node \
+g++ src/hinapi.cc -o build/hinapi.node \
   -I third_party/node-addon-api \
   -I third_party/node-api-headers/include \
   -shared -fPIC
